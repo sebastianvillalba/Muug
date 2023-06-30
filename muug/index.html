@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Muug - Tienda de Té</title>
+
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="icon" href="img/">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximus-scale=1">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Bienvenidos a mi tienda de té, muug">
+        <meta name="keywords" content="Te, tienda, infusor, palabras, clave">
+    </head>
+    <body>
+        <nav>
+            <a href="#"><img src="img/logo1.svg.svg" alt="MUUG" class="logo-nav"></a>
+            
+            <input type="checkbox" id="icon-menu">
+
+                <label for="icon-menu">
+                    <div class="linea1"></div>
+                    <div class="linea1 apagar"></div>
+                    <div class="linea2"></div>
+                </label>
+                
+                
+                <div class="menu">
+                    <ul>
+                        <a href="#"><li>INICIO</li></a>
+                        <a href="#"><li>TIENDA</li></a>
+                        <a href="#"><li>CONTACTO</li></a>
+                    </ul>
+                    <a href="#"><img src="img/instagram.svg" alt="MUUG" class="insta-nav"></a>
+                </div>
+        </nav>
+
+        <header>
+            <header>
+                <video muted autoplay loop poster="img/poster-02.png" class="video-header">
+                    <source src="img/videoheader.mp4.mp4" type="video/mp4">
+                </video>
+    
+                <div class="txt-header">
+                    <img src="img/logo3.svg.svg" alt="" class="logo-header">
+                    Ingenieros del té
+                </div>
+            </header>
+        </header>
+
+        <section id="texto">
+            <p class="frase1">“Nunca encuentro una taza de té lo bastante grande o un libro lo bastante largo para saciarme”</p>
+            <p class="frase2">C.S. Lewis.</p>
+        </section>
+        
+        <main>
+            <div class="conte-producto">
+                <img src="img/IMG_50copia.png" class="img-produ" alt="Cjas de té">
+                <h1>Nuestros Tés</h1>
+                <a href="#" class="btn-vertodos">- ver todos -</a>
+            </div>
+
+            <div class="conte-producto">
+                <img src="img/juntas copia.png" class="img-produ" alt="Infusor Bola">
+                <h1>Nuestros Infusores</h1>
+                <a href="#" class="btn-vertodos">- ver todos -</a>
+            </div>
+
+            <div class="conte-btn">
+                En nuestra tienda encontrarás todo nuestro catálogo.
+                <a href="#" class="btn-tienda">TIENDA</a>
+            </div>
+        </main>
+
+        <section id="contacto">
+            <div id="secmapa">
+                <a href="https://goo.gl/maps/hVAP15sr1eb98Vgq8" target="_blank">Av. Rivadavia 1234</a>
+                <a href="tel:+5491137574501" target="_blank"> Llamada +549 11 3757-4501</a>
+                <a href="https://wa.me/5491137574501" target="_blank">WhatsApp +549 11 3757-4501 </a>
+
+                <div id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.364121706372!2d-58.2377538852699!3d-32.48969575623157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afdba8329fd295%3A0x4d95308e4baa6593!2sRivadavia%2C%20Concepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1640730085124!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div id="secformu">
+                <h2>Hablemos!</h2>
+                <form method="post" action="php/contacto.php">
+                    <input type="text" name="nombre" placeholder="Nombre *" class="inputformu" required>
+                    <input type="text" name="apellido" placeholder="Apellido" class="inputformu">
+
+                    <input type="email" name="correo" placeholder="ejemplo@muug.com *" class="inputformu" readonly>
+
+                    <select name="productos" class="selectformu">
+                        <option value="" selected>Selecciona un producto</option>
+                        <option value="tes">Nuestros tés</option>
+                        <option value="infusores">Nuestros infusores</option>
+                    </select>
+                    <textarea name="mensaje" class="textareaformu" placeholder="Escribe un mensaje..*" required></textarea>
+
+                    <input type="submit" value="ENVIAR" class="btnformu">
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <a href="#"><img src="img/logo2.svg.svg" alt="MuuG" class="logo-footer"></a>
+        <a href="https://www.instagram.com/muug.ar/" target="_blank">
+          <img src="img/instagram.svg" alt="instagram" class="insta-footer">
+        </a>
+
+        </footer>
+    </body>
+</html>
+
+
+
+      
